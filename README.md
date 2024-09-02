@@ -1,0 +1,1 @@
+This project is a personal resume template created using Python and Django. It features sections for skills, services, contact details, and a basic introduction. Designed with simplicity and clarity in mind, this template provides a clean and professional presentation of personal information.
