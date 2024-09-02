@@ -1,0 +1,32 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block title %} Home {% endblock title %}  
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="text-center mt-5">
+            <img src="{% static 'core/images/virat.webp' %}" alt="profilepic" class="img-thumbnail"
+            width="250px" height="150px">   
+        </div>
+        <div class="text-white mt-5 mx-5 text-justify">
+            <h2 class="font-weight-bold ">Hello,</h2>
+            <h3>I'm Tushar Sawant,</h3>
+            <div class="px-4" style="line-height: 2rem;">
+                <p style="text-indent: 100px;">I hold a Bachelor of Engineering degree in Mechanical Engineering from Mumbai University, which I completed in 2022. Following my interest in technology, I transitioned into the field of software development by pursuing a Post Graduate Diploma in Advanced Computing from CDAC in 2023. During this time, I acquired skills in key software development technologies, including Java, HTML, CSS, and JavaScript.</p>
+                <p style="text-indent: 100px;">To further enhance my expertise and stay current in the rapidly evolving tech industry, I enrolled in a Master in Full Stack Development program at IT Vedant Institute in 2024. This program allowed me to deepen my knowledge and proficiency in full stack web development technologies such as Python, Django, HTML, CSS, JavaScript, MySQL, and Java.</p>
+                <p style="text-indent: 100px;">In addition to my formal education, I have also earned a Python Development certification from IBM, which has solidified my skills in Python programming and related technologies. My journey reflects a continuous commitment to learning and adapting, equipping me with a robust foundation in both front-end and back-end development.</p>
+                <p style="text-indent: 100px;">I am proficient in building dynamic, responsive, and user-friendly web applications, leveraging a variety of programming languages and frameworks. My technical skill set, combined with my problem-solving abilities, positions me as a capable full stack developer ready to tackle complex projects.</p>
+            </div>
+           
+        </div>
+    
+        <div class="text-center">
+            <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+            <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+        </div>
+    </div>
+    
+   
+
+{% endblock content %}
+
